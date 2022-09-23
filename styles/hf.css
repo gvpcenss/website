@@ -1,0 +1,235 @@
+.nss-logo {
+    width: 100px;
+    height: 70px;
+}
+
+
+.sticky-top{
+    top: 0;
+}
+
+.sb-navbar{
+    
+    position: fixed;
+    background: transparent;
+    margin-bottom: -10px;
+    font-weight: 400;
+}
+
+.sb-navbar .fa-bars{
+    color: #fff;
+}
+
+.sb-navbar.scrolled .fa-bars{
+    color: #000;
+}
+
+.sb-navbar .dropdown-menu{
+    border: 0;
+    background: transparent;
+}
+
+.sb-navbar .dropdown a{
+    text-align: center;
+}
+
+.sb-navbar .nav-item a{
+    color: #fff;
+}
+
+.sb-navbar.scrolled {  
+    /*background-color: #fbc108;*/
+    background-color: #fff;
+    transition: background-color 200ms linear;
+}
+
+.sb-navbar.scrolled a{
+    color: #000;
+}
+
+.sb-navbar.scrolled .dropdown-menu{
+    background-color: #fff;
+}
+
+.sb-navbar .navbar-brand img{
+    /*height: 50px;
+    width: 100%;*/
+    height: 4rem;
+    width: 9rem;
+    margin-left: 5vw;
+}
+
+
+
+
+.navbar.scrolled{
+    background-color: white;
+    color: black;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.c-img{
+    border-radius: 0px!important;
+}
+.image-style{
+  background-size:cover;
+}
+.img{
+    display: block;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .2s;
+    border-radius: 7px;
+    float: center;
+    cursor: pointer;
+  }
+  /*zoom on image hover*/
+  .img:hover{
+    transform: scale(1.25);
+  }
+#navItem1 {
+    color: rgb(20, 18, 87);;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navItem2 {
+    color: rgb(20, 18, 87);;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navItem3 {
+    color: rgb(20, 18, 87);;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navItem4 {
+    color: rgb(20, 18, 87);;
+    font-family: 'Poppins', sans-serif;
+}
+#navItem5 {
+    color: rgb(20, 18, 87);;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-section-bg-container {
+    background-size: cover;
+    top:15px;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+    position:relative;
+    top:20px;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+
+.card-title {
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+
+.social {
+    font-size: 25px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.social a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.social a:hover {
+    color: orange;
+    font-size: 23px;
+}
+.vol-button{
+    width:100%;
+    text-align:center
+}
+.vol-button button{
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.vol-button a{
+    color: white;
+
+}
+.vol-button a:hover{
+    color: white;
+    text-decoration:none;
+}
+.soc-icon{
+    font-size: 25px;
+}
+.dropitems {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    color:rgb(20, 18, 87);
+
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.05);
+    z-index: 1;
+    
+  }
+  .dropitems:hover{
+      background-color: transparent;
+      
+  }
+
+  .dropitems a {
+      font-family: 'Poppins', sans-serif;
+    color: rgb(20, 18, 87);
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .dropitems a:hover {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      border-radius: 10px;
+      font-weight: 600;
+      background-color: rgb(20, 18, 87);
+  }
+
+  .drop:hover .dropitems {
+      display: block;
+  }
+  .feature_item img{
+      max-height: 10rem;
+  }
