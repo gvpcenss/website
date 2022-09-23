@@ -54,6 +54,12 @@
     transition: background-color 200ms linear;
 }
 
+.navbar-collapse.show{
+    background-color: #055fad;
+    padding-bottom: 100%;
+    color: white;
+}
+
 .sb-navbar.scrolled a{
     color: #000;
 }

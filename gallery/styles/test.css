@@ -16,13 +16,13 @@
 @-webkit-keyframes zoom {
  from {-webkit-transform:scale(0)} 
  to {-webkit-transform:scale(1)}
- border-radius:7px;
+ /* border-radius:7px; */
 }
 
 @keyframes zoom {
   from {transform:scale(0)} 
   to {transform:scale(1)}
-  border-radius:7px;
+  /* border-radius:7px; */
  }
 /*to hide browser default scrollbar ruins the modern design*/
 body{
