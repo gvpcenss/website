@@ -1,0 +1,97 @@
+* {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight:normal;
+}
+.feed{
+    background-color: #c9d8f0;
+    width: 100%;
+    height: 700px;
+    overflow: auto;
+}
+
+.contact{
+    padding: 4%;
+    height: 400px;
+    width: 500px;
+}
+.info{
+    background-image: linear-gradient(#2A2A72,#009FFD);
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    box-shadow: 20px 20px 6px -6px #777;
+    color: #fff;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    box-shadow: 20px 20px 6px -6px #777;
+}
+
+.footer{
+    background-color: #055fad;
+    color: white;
+}
+footer{
+    padding: 20px 20px 0 20px;
+}
+.map{
+   overflow: hidden;
+}
+.my-5{
+    margin: 0;
+}
+.p-5{
+    background-color:#055fad ;
+    color: white;
+}
+.contact-form form{
+    padding: 20px;
+}
+.contact-form form input{
+    width:100%;
+    margin:7px;
+    padding:7px;
+    border:2px solid #25274d;
+    border-radius: 5px;
+}
+.contact-form label{
+    font-weight: bolder;
+}
+.contact-form form textarea{
+    width:100%;
+    margin:7px;
+    padding:7px;
+    outline:none;
+    border:2px solid #25274d;
+    border-radius: 5px;
+}
+.contact-form form button{
+    width:25%;
+    margin:7px;
+    padding:7px;
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+}
+.contact-form form button:hover{
+    
+    background-color: purple;
+    border: 1px solid green;
+}
+.soc-icon{
+    font-size: 25px;
+}
