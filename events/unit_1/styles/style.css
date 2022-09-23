@@ -1,0 +1,57 @@
+.container{
+    margin-top: 6%;
+}
+.col-md-4{
+    transition: all 1.5s ease;
+}
+.col-md-4:hover{
+    transform: scale(1.08);
+    align-self: center;
+}
+body{
+    background-image: url("bg3.png");
+    font-style:inherit;
+    background-attachment:relative;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.card-title{
+    font-style: inherit;
+}
+.card{
+    border:2px solid black;
+    border-radius:5px;
+    width:18rem;
+    height:95%;
+}
+.card {
+    height: 530px;
+    width:300px;
+    display: flex;
+    text-align: center;
+}
+.row{
+    margin-bottom:30px;
+}
+.card-img-top{
+    height: 250px;
+    width: 295px;
+}
+.head{
+    color:rgb(252, 244, 233)
+}
+marquee{
+    color: red;
+}
+p{
+    font-family: 'Gothic A1',sans-serif;
+}

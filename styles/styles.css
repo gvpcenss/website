@@ -1,0 +1,22 @@
+.nss-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nav-link .nav-item{
+    font-weight: 500!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel img{
+height: 50vh;
+}
+
+
+.sticky-top{
+    top: 0;
+}
+
+
+
+

@@ -1,0 +1,66 @@
+.container{
+    margin-top: 2rem;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-md-4{
+    transition: all 1.5s ease;
+}
+.col-md-4:hover{
+    transform: scale(1.08);
+    align-self: center;
+}
+body{
+    background-image: url("../images/bg3.png");
+    font-style:inherit;
+    font-family: inherit;
+    background-attachment:fixed;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+    margin-top: 25px;
+}
+
+.anime-line {
+    background-color: black;
+    height: 2.2px;
+    width: 250px;
+}
+hr{
+    margin-top: 0rem;
+}
+.card {
+    border:2px solid black;
+    border-radius:5px;
+    height: 520px;
+    width:300px;
+    display: flex;
+    text-align: center;
+}
+.row{
+    margin-bottom:30px;
+}
+.card-img-top{
+    height: 240px;
+    width: 295px;
+}
+.head{
+    color:rgb(252, 244, 233)
+}
+marquee{
+    color: red;
+    margin-top: 15px;
+    margin-bottom:none;
+}
+p{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
