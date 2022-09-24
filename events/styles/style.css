@@ -119,3 +119,29 @@ p{
     text-decoration: none;
     float: left;
 }
+
+
+
+.gvpce{
+    padding-right: 0px;
+    height: 15vh;
+    width: 100%;
+}
+
+/* .NSS-GVPCE:hover{
+    text-decoration: none!important;
+} */
+
+.nss-banner {
+    display: flex;
+    transition: all 0.2s ease;
+    /* animation: banner-fade 1s; */
+}
+.nss-logo {
+    width: 250px;
+    /* height: 100px; */
+
+}
+.nss-logo{
+    background-color: white;
+}

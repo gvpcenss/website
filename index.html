@@ -51,8 +51,8 @@
           
         }
         .dropitems:hover{
-            background-color: transparent;
-            
+            background-color: #fff;
+            border-radius: 10px;
         }
 
         .dropitems a {
@@ -69,7 +69,7 @@
 
         .dropitems a:hover {
             font-family: 'Poppins', sans-serif;
-            color: white;
+            color: #fff;
             border-radius: 10px;
             font-weight: 600;
             background-color: rgb(20, 18, 87);
@@ -81,26 +81,30 @@
         .feature_item img{
             max-height: 10rem;
         }
+        .NSS-GVPCE{
+            color: white;
+        }
+        .sb-navbar .p.scrolled{
+            color:#332265;
+        }
 	</style>
 </head>
 
 <body>
+   
+    
     <nav class="container-fluid navbar navbar-expand-lg sb-navbar sticky-top ">
-        <div class="container mr-auto">
+        <div class="container-fluid mr-auto">
             <div class="d-flex flex-row justify-content-center">
-            <a class="navbar-brand-logo" href="#">
-                <img src="images/NSS_logo-removebg-preview.png" class="nss-logo mr-auto" />
                 
-
-            </a>
-            <p style="display: inline;margin-top:10%;color:rgb(20, 18, 87);font-weight:600;" class="NSS-GVPCE">NSS GVPCE(A)</p>
+            <a class="navbar-brand-logo" href="#"></a>
+            <p style="display: inline;margin-top:10%;font-weight:600;" id="brand-name" class="NSS-GVPCE">National Service Scheme GVPCE(A)</p>
             <button class="navbar-toggler" type="button" data-trigger="#navbarNavDropdown">
                 <!-- <i class="fa fa-bars hamburger" aria-hidden = "true"></i> -->
               </button>
-              <div class="text-center mt-10">
+              <div class="text-center mt-10"></div>
             </div>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="hamburger-btn">
                 <i class="fa fa-bars hamburger" aria-hidden = "true"></i>
                 <!-- <span class="navbar-toggler-icon">*</span> -->
             </button>
@@ -141,7 +145,11 @@
             </div>
         </div>
     </nav>
-
+    <div class="container-fluid row nss-banner"  id="banner">
+    <img src="./images/gvp logo.png" class="gvp-logo col-sm-2  col-md-2 col-lg-1" style="padding: 0px;">
+    <img src="./images/gvpce.png" class="gvpce col-sm-8  col-md-8 col-lg-10" style="padding:0px">
+    <img src="images/NSS LOGO.png" class="nss-logo col-sm-2 col-md-2 col-lg-1" style="padding:0px"/>
+    </div>
     <div class="banner-section-bg-container d-flex justify-content-center flex-column">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -289,7 +297,34 @@
     <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
         <h1 class="text-center" style="color: #063258;">Meet Our Team</h1>
         <hr class="underline" style="width:5em;height:2px;">
-
+        <div class="fac">
+            <div class='container mx-auto mt-5 col-md-10 mt-100'>
+                <div class="header">
+                    <div class="title">Chairman</div>
+                </div>
+                <hr>
+                <div class="row" style="justify-content: center">
+                    <div class="card col-md-3 mt-100">
+                        <div class="card-content">
+                            <div class="card-body p-0">
+                                <div class="profile"> <img src="images/abkrao.jpeg"> </div>
+                                <div class="card-title">  Prof.Dr. A.B. Koteswara Rao <br /> <small>PRINCIPAL
+                                        </small>
+                                </div>
+                                <div class="social">
+                                    <a href="mailto: principal@gvpce.ac.in"><i class="fa fa-envelope-o"
+                                            aria-hidden="true"></i></a>
+    <!--                                 <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+    
+                </div>
+            </div>
+        </div>
+    
         <div class="core">
             <div class='container mx-auto mt-5 col-md-10 mt-100'>
                 <div class="header">
