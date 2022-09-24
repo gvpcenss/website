@@ -38,6 +38,8 @@ hr{
     margin-top: 0rem;
 }
 .card {
+    margin-left: 13%;
+    margin-right: 13%;
     border:2px solid black;
     border-radius:5px;
     height: 520px;
