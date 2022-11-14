@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-NSS</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Trigger Button -->
+  <div class="d-none">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn_modal">Launch</button>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">NSS Nutrition Quiz</h1>
+        </div>
+
+          <div class="modal-body">
+            <label for="">Name</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter Full Name" required>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="startQuiz()" data-bs-dismiss="modal">Start Quiz</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="images">
+      <img src="/images/gvp logo.png" style="width: 10vw;" alt="gvplogo">
+      <img src="/images/gvpce.png" style="width: 75vw;" alt="">
+      <img src="/images/NSS LOGO.png" style="width: 10vw;" alt="">
+    </div>
+    <div class="wrapper">
+        <div class="quiz d-none" id="quiz_id">
+            
+
+            <!-- Quiz Questions -->
+            <div id="quiz_box" class="d-none quiz_body">
+                <div id="quiz_body"></div>
+                <div class="d-grid gap-2 col-3 mx-auto">
+                  <button onclick="sendDetails()" class="btn btn-danger" type="button">End Quiz</button>
+                </div>
+            </div>
+            
+            <!-- Quiz Ends -->
+            <div class="d-none" id="end_quiz">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
