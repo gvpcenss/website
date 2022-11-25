@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>unit-2</title>
+  <link href="build.css" rel="stylesheet">
+</head>
+<body class="bodybg">
+  <section class="overwrap">
+    <div>
+      <div class="overdown">
+        <a href="#" class="home"><< home</a>
+        <div>
+          <h1 class="toptex">Gallery</h2>
+        </div>
+        <div class="btnwrap">
+          <button class="btn active px-1.5" onclick="switc(this)">all</button>
+          <button class="btn" onclick="switc(this)">NSS Day</button>
+          <button class="btn" onclick="switc(this)">vanamahotsav</button>
+          <button class="btn" onclick="switc(this)">azadi ka amrit mahotsav</button>
+          <button class="btn" onclick="switc(this)">flag hosting</button>
+          <button class="btn" onclick="switc(this)">farewell</button>
+          <button class="btn" onclick="switc(this)">feeding the voiceless</button>
+        </div>
+      </div>
+    </div>
+    <div class="overlap">
+       <div class="filterdis NSS Day">
+      <div class="outgrid">
+        <div class="ingrid">
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03503.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03849.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03554.jpg" class="dispimg" /> </a>  
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03524.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03513.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/DSC03896.jpg" class="dispimg" /> </a> 
+        </div>
+      </div>
+      </div>
+      <div class="filterdis vanamahotsav">
+      <div class="outgrid">
+          <div class="ingrid" >
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_143214.jpg" class="dispimg" /> </a>
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_143227.jpg" class="dispimg" /> </a> 
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_144542.jpg" class="dispimg" /> </a>
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_145423.jpg" class="dispimg" /> </a>
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_143926.jpg" class="dispimg" /> </a>
+              <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220702_150143.jpg" class="dispimg" /> </a>
+            </div>
+      </div>
+      </div>
+      <div class="filterdis azadi ka amrit mahotsav">
+      <div class="outgrid">
+        <div class="ingrid">
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG20220812151702.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG20220812151915.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_6297.jpg" class="dispimg" /> </a>   
+        </div>
+      </div>
+      </div>
+       <div class="filterdis flag hosting">
+      <div class="outgrid">
+        <div class="ingrid">
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220815_091648.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220815_085230.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220815_085039.jpg" class="dispimg" /> </a>   
+        </div>
+      </div>
+      </div>
+       <div class="filterdis farewell">
+      <div class="outgrid">
+        <div class="ingrid">
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_6526.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_3375.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220616_142449.jpg" class="dispimg" /> </a>   
+        </div>
+      </div>
+      </div>
+       <div class="filterdis feeding the voiceless">
+      <div class="outgrid">
+        <div class="ingrid">
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220517_085358.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220517_083604.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_20220517_094640.jpg" class="dispimg" /> </a> 
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_20220517_094307.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/IMG_20220517_090807.jpg" class="dispimg" /> </a>
+          <a href="#" class="dispimgwrap"><img onclick="showmodal(this)" src="img/20220517_150453.jpg" class="dispimg" /> </a>  
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <div id="modal01" onclick="this.style.display='none'">
+    <div class="modal-content">
+      <img id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="imghyper.js"></script>
+</body>
+</html>
