@@ -11,7 +11,7 @@
     align-self: center;
 }
 body{
-    background-image: url("../images/bg3.png");
+/*     background-image: url("../images/bg3.png"); */
     font-style:inherit;
     font-family: inherit;
     background-attachment:fixed;
