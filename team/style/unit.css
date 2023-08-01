@@ -1,22 +1,23 @@
-*{
+* {
     font-family: 'Gothic A1', sans-serif;
     font-weight: normal;
 }
 
 .main {
-    
+
     background-color: #f9f6e9;
 }
 
-.p-5{
+.p-5 {
     color: blue;
     height: 170px;
-    background-color:#f9f6e9;
+    background-color: #f9f6e9;
 }
-.p-5 p{
+
+.p-5 p {
     border-radius: 20px;
     padding: 10px 20px 5px 20px;
-    
+
 }
 
 .fac {
@@ -71,7 +72,10 @@
 
 .profile img:hover {
 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, .2); */
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .card {
@@ -122,25 +126,30 @@
     color: orange;
     font-size: 23px;
 }
-.vol-button{
-    width:100%;
+
+.vol-button {
+    width: 100%;
     margin-bottom: 2.5rem;
-    text-align:center
+    text-align: center
 }
-.vol-button button{
+
+.vol-button button {
     margin: 20px;
     width: 200px;
     border-radius: 10px;
 }
-.vol-button a{
+
+.vol-button a {
     color: white;
 
 }
-.vol-button a:hover{
+
+.vol-button a:hover {
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
-.soc-icon{
+
+.soc-icon {
     font-size: 25px;
 }
 
@@ -148,17 +157,19 @@
     background-color:green;
     color: white;
 } */
-.back{
-    background-color:green;
+.back {
+    background-color: green;
     color: white;
     padding: 0.8rem;
     border-radius: 0.8rem;
     text-decoration: none;
     float: right;
 }
-.back:hover{
-    background-color: rgb(4, 82, 4);;
-    color:white;
+
+.back:hover {
+    background-color: rgb(4, 82, 4);
+    ;
+    color: white;
     padding: 0.8rem;
     border-radius: 0.8rem;
     text-decoration: none;
@@ -166,20 +177,21 @@
 }
 
 
-.home{
-    background-color:green;
+.home {
+    background-color: green;
     color: white;
     padding: 0.8rem;
     border-radius: 0.8rem;
     text-decoration: none;
     float: left;
 
-    
+
 }
 
-.home:hover{
-    background-color: rgb(4, 82, 4);;
-    color:white;
+.home:hover {
+    background-color: rgb(4, 82, 4);
+    ;
+    color: white;
     padding: 0.8rem;
     border-radius: 0.8rem;
     text-decoration: none;
@@ -187,11 +199,11 @@
 }
 
 
-.volunteer-list{
-    background-color:green;
+.volunteer-list {
+    background-color: green;
     color: white;
     padding-left: 0.8rem;
-    padding-right:0.8rem ;
+    padding-right: 0.8rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     border-radius: 0.8rem;
@@ -199,11 +211,23 @@
 
 }
 
-.volunteer-list:hover{
-    background-color:rgb(3, 94, 3);
+.prev-board {
+    background-color: rgb(0, 0, 128);
     color: white;
     padding-left: 0.8rem;
-    padding-right:0.8rem ;
+    padding-right: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+
+}
+
+.volunteer-list:hover {
+    background-color: rgb(3, 94, 3);
+    color: white;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     border-radius: 0.8rem;
@@ -213,7 +237,7 @@
 
 
 
-.gvpce{
+.gvpce {
     height: 15vh;
     width: 100%;
 }
@@ -227,6 +251,7 @@
     transition: all 0.2s ease;
     /* animation: banner-fade 1s; */
 }
+
 .nss-logo {
     width: 250px;
     height: 100px;

@@ -1,0 +1,234 @@
+*{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: normal;
+}
+
+.main {
+    
+    background-color: #f9f6e9;
+}
+
+.p-5{
+    color: blue;
+    height: 170px;
+    background-color:#f9f6e9;
+}
+.p-5 p{
+    border-radius: 20px;
+    padding: 10px 20px 5px 20px;
+    
+}
+
+.fac {
+    width: 100%;
+    background-color: white;
+    padding: 0px 0px 5px 0;
+    margin-top: 0;
+
+}
+
+.core {
+    width: 100%;
+    background-color: #f9f6e9;
+    padding: 5px 0px 5px 0;
+}
+
+.core_team {
+    width: 100%;
+    background-color: white;
+    padding: 5px 0px 5px 0;
+
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.icon {
+    position: relative;
+    bottom: 11px
+}
+
+.mt-100 {
+    margin-top: 50px
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px ridge red;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.profile img:hover {
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.card {
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.card:hover {
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+}
+
+.card-body {
+    position: relative;
+    bottom: 35px;
+    padding: 30px 30px 5px 30px;
+
+}
+
+
+
+
+.card-title {
+    margin-top: 20px;
+    font-size: 19px;
+
+}
+
+.social {
+    font-size: 25px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.social a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.social a:hover {
+    color: orange;
+    font-size: 23px;
+}
+.vol-button{
+    width:100%;
+    margin-bottom: 2.5rem;
+    text-align:center
+}
+.vol-button button{
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.vol-button a{
+    color: white;
+
+}
+.vol-button a:hover{
+    color: white;
+    text-decoration:none;
+}
+.soc-icon{
+    font-size: 25px;
+}
+
+/* header > div > a{
+    background-color:green;
+    color: white;
+} */
+.back{
+    background-color:green;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    float: right;
+}
+.back:hover{
+    background-color: rgb(4, 82, 4);;
+    color:white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    float: right;
+}
+
+
+.home{
+    background-color:green;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    float: left;
+
+    
+}
+
+.home:hover{
+    background-color: rgb(4, 82, 4);;
+    color:white;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    float: left;
+}
+
+
+.volunteer-list{
+    background-color:green;
+    color: white;
+    padding-left: 0.8rem;
+    padding-right:0.8rem ;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+
+}
+
+.volunteer-list:hover{
+    background-color:rgb(3, 94, 3);
+    color: white;
+    padding-left: 0.8rem;
+    padding-right:0.8rem ;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+
+}
+
+
+
+.gvpce{
+    height: 15vh;
+    width: 100%;
+}
+
+/* .NSS-GVPCE:hover{
+    text-decoration: none!important;
+} */
+
+.nss-banner {
+    display: flex;
+    transition: all 0.2s ease;
+    /* animation: banner-fade 1s; */
+}
+.nss-logo {
+    width: 250px;
+    height: 100px;
+
+}
